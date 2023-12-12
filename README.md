@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Title
 
-## Getting Started
+Watch It!
 
-First, run the development server:
+## Desciption
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is a Next js project that works with theMovieDB api.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## What can you do?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+####  Explore movies or series
 
-## Deploy on Vercel
+#### Store it and manage your movies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Share it on WhatsApp 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## How storage works
+
+- The storage works with the browser localstorage API.
+- the movies or series will be retrieved if when reload or reopen the webpage
+
+## Visit storage
+
+- Before closing the webpage it will set a cookie with a random id to be able to identify a new visitor and make a statistic based on unique visitors and total visits
+
+## How to make this project work for you
+
+- Obtain a api key from themoviedb you can check it in here : 
+
+https://developer.themoviedb.org/reference/intro/getting-started
+
+- Create a .env.local file and store it as API_KEY 
+
+
+
+
+
+
+
+## Authors
+
+[@Matteo Stella => Pixel-Reactor](https://www.github.com/pixel-reactor)
+Matteo Stella - Full Stack Developer
