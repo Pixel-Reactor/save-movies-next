@@ -8,7 +8,7 @@ This is a Next js project that works with theMovieDB api.
 
 ## 
 Live url 
-https://movies.pixel-reactor.com
+https://movie.pixel-reactor.com
 
 
 ## What can you do?
